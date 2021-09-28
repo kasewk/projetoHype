@@ -1,0 +1,38 @@
+.formulario {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1em;
+}
+
+.formulario label {
+    margin-bottom: .6em;
+    font-weight: bold;
+}
+
+.formulario input {
+    padding: .7em;
+    border-radius: 0;
+    border: none;
+}
+
+.formulario input::placeholder{
+    color: #7b7b7b;
+}
+
+.formulario input:focus{
+    outline-color: #1fb995;
+}
+
+.formulario select{
+    height: 46.38px;
+    /* color: #7b7b7b; */
+    border: 0;
+}
+
+.formulario select::placeholder{
+    color: #7b7b7b;
+}
+
+.formulario select:focus{
+    outline-color: #1fb995;
+}

@@ -1,0 +1,38 @@
+.botao{
+    padding: 0.5em 1em;
+    font-size: 1.2em;
+    text-decoration: none;
+    transition: 0.2s;
+    border-radius: 1px;
+    border: none;   
+    width: 130px;
+}
+
+
+.salvar{
+    background-color: #1fb995;
+    color: #FFF;
+    box-shadow: 1px 1.5px 0 #1fb995;
+}
+
+.salvar:hover{
+    background-color: #157760
+}
+
+.salvar:active{
+    box-shadow: 0.2px 0.2px 0 #157760;
+}
+
+.cancelar{
+    background-color: crimson;
+    color: #FFF;
+    box-shadow: 1px 1.5px 0 crimson;
+}
+
+.cancelar:hover{
+    background-color: rgb(160, 15, 44);
+}
+
+.cancelar:active{
+    box-shadow: 0.2px 0.2px 0 crimson;
+}

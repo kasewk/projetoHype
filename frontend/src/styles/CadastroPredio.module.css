@@ -1,0 +1,10 @@
+.form{
+    max-width: 800px;
+    margin: 30px auto;
+}
+
+.botoes{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
